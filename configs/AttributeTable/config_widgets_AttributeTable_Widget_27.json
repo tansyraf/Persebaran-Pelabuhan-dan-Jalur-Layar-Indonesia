@@ -1,0 +1,745 @@
+{
+  "layerInfos": [
+    {
+      "name": "Batas Laut Teritorial",
+      "id": "f2cc67adbbcd4118906622e4a53611c5",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Persebaran_Pelabuhan_dan_Jalur_Pelayaran_Kapal_Indonesia_WFL1/FeatureServer/2",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true
+          },
+          {
+            "name": "OID_",
+            "alias": "OID_",
+            "show": true
+          },
+          {
+            "name": "Name",
+            "alias": "Name",
+            "show": true
+          },
+          {
+            "name": "FolderPath",
+            "alias": "FolderPath",
+            "show": true
+          },
+          {
+            "name": "SymbolID",
+            "alias": "SymbolID",
+            "show": true
+          },
+          {
+            "name": "AltMode",
+            "alias": "AltMode",
+            "show": true
+          },
+          {
+            "name": "Base",
+            "alias": "Base",
+            "show": true
+          },
+          {
+            "name": "Clamped",
+            "alias": "Clamped",
+            "show": true
+          },
+          {
+            "name": "Extruded",
+            "alias": "Extruded",
+            "show": true
+          },
+          {
+            "name": "Snippet",
+            "alias": "Snippet",
+            "show": true
+          },
+          {
+            "name": "PopupInfo",
+            "alias": "PopupInfo",
+            "show": true
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": true
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Pelabuhan",
+      "id": "d6ea98ebb42e4deb9e9de2aa2f78878e",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Persebaran_Pelabuhan_dan_Jalur_Pelayaran_Kapal_Indonesia_WFL1/FeatureServer/0",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": true
+          },
+          {
+            "name": "lat",
+            "alias": "lat",
+            "show": true
+          },
+          {
+            "name": "lon",
+            "alias": "lon",
+            "show": true
+          },
+          {
+            "name": "namobj",
+            "alias": "namobj",
+            "show": true
+          },
+          {
+            "name": "kode",
+            "alias": "kode",
+            "show": true
+          },
+          {
+            "name": "fcode",
+            "alias": "fcode",
+            "show": true
+          },
+          {
+            "name": "srs_id",
+            "alias": "srs_id",
+            "show": true
+          },
+          {
+            "name": "lcode",
+            "alias": "lcode",
+            "show": true
+          },
+          {
+            "name": "metadata",
+            "alias": "metadata",
+            "show": true
+          },
+          {
+            "name": "tipe_pp",
+            "alias": "tipe_pp",
+            "show": true
+          },
+          {
+            "name": "nama_pp",
+            "alias": "nama_pp",
+            "show": true
+          },
+          {
+            "name": "alamat",
+            "alias": "alamat",
+            "show": true
+          },
+          {
+            "name": "kodepos",
+            "alias": "kodepos",
+            "show": true
+          },
+          {
+            "name": "prov",
+            "alias": "prov",
+            "show": true
+          },
+          {
+            "name": "kabkot",
+            "alias": "kabkot",
+            "show": true
+          },
+          {
+            "name": "kd_prov",
+            "alias": "kd_prov",
+            "show": true
+          },
+          {
+            "name": "kd_kabkot",
+            "alias": "kd_kabkot",
+            "show": true
+          },
+          {
+            "name": "notelp",
+            "alias": "notelp",
+            "show": true
+          },
+          {
+            "name": "surel",
+            "alias": "surel",
+            "show": true
+          },
+          {
+            "name": "sk_tap_rip",
+            "alias": "sk_tap_rip",
+            "show": true
+          },
+          {
+            "name": "sk_tap_lok",
+            "alias": "sk_tap_lok",
+            "show": true
+          },
+          {
+            "name": "izin_bng",
+            "alias": "izin_bng",
+            "show": true
+          },
+          {
+            "name": "thn_bng",
+            "alias": "thn_bng",
+            "show": true
+          },
+          {
+            "name": "izin_kmb",
+            "alias": "izin_kmb",
+            "show": true
+          },
+          {
+            "name": "thn_kmb",
+            "alias": "thn_kmb",
+            "show": true
+          },
+          {
+            "name": "izin_ops",
+            "alias": "izin_ops",
+            "show": true
+          },
+          {
+            "name": "thn_ops",
+            "alias": "thn_ops",
+            "show": true
+          },
+          {
+            "name": "aset",
+            "alias": "aset",
+            "show": true
+          },
+          {
+            "name": "nilai_aset",
+            "alias": "nilai_aset",
+            "show": true
+          },
+          {
+            "name": "stat_ops",
+            "alias": "stat_ops",
+            "show": true
+          },
+          {
+            "name": "klspel",
+            "alias": "klspel",
+            "show": true
+          },
+          {
+            "name": "stat_jln",
+            "alias": "stat_jln",
+            "show": true
+          },
+          {
+            "name": "kls_jln",
+            "alias": "kls_jln",
+            "show": true
+          },
+          {
+            "name": "pnj_jln",
+            "alias": "pnj_jln",
+            "show": true
+          },
+          {
+            "name": "stat_rel",
+            "alias": "stat_rel",
+            "show": true
+          },
+          {
+            "name": "jml_pns",
+            "alias": "jml_pns",
+            "show": true
+          },
+          {
+            "name": "tipe_opera",
+            "alias": "tipe_opera",
+            "show": true
+          },
+          {
+            "name": "operator",
+            "alias": "operator",
+            "show": true
+          },
+          {
+            "name": "lintas",
+            "alias": "lintas",
+            "show": true
+          },
+          {
+            "name": "jns_kpl",
+            "alias": "jns_kpl",
+            "show": true
+          },
+          {
+            "name": "hirrki",
+            "alias": "hirrki",
+            "show": true
+          },
+          {
+            "name": "jml_dmg",
+            "alias": "jml_dmg",
+            "show": true
+          },
+          {
+            "name": "pnj_dmg",
+            "alias": "pnj_dmg",
+            "show": true
+          },
+          {
+            "name": "dlm_klm",
+            "alias": "dlm_klm",
+            "show": true
+          },
+          {
+            "name": "bbt_kapal",
+            "alias": "bbt_kapal",
+            "show": true
+          },
+          {
+            "name": "ls_lap_pmp",
+            "alias": "ls_lap_pmp",
+            "show": true
+          },
+          {
+            "name": "term_pnp",
+            "alias": "term_pnp",
+            "show": true
+          },
+          {
+            "name": "ls_trm_pnp",
+            "alias": "ls_trm_pnp",
+            "show": true
+          },
+          {
+            "name": "term_ptk",
+            "alias": "term_ptk",
+            "show": true
+          },
+          {
+            "name": "ls_trm_ptk",
+            "alias": "ls_trm_ptk",
+            "show": true
+          },
+          {
+            "name": "term_crhc",
+            "alias": "term_crhc",
+            "show": true
+          },
+          {
+            "name": "ls_crhc",
+            "alias": "ls_crhc",
+            "show": true
+          },
+          {
+            "name": "term_crhk",
+            "alias": "term_crhk",
+            "show": true
+          },
+          {
+            "name": "ls_crhk",
+            "alias": "ls_crhk",
+            "show": true
+          },
+          {
+            "name": "kap_lay_br",
+            "alias": "kap_lay_br",
+            "show": true
+          },
+          {
+            "name": "ls_gdng_l1",
+            "alias": "ls_gdng_l1",
+            "show": true
+          },
+          {
+            "name": "ls_gdng_gp",
+            "alias": "ls_gdng_gp",
+            "show": true
+          },
+          {
+            "name": "ls_gdng_sc",
+            "alias": "ls_gdng_sc",
+            "show": true
+          },
+          {
+            "name": "ls_gdng_fd",
+            "alias": "ls_gdng_fd",
+            "show": true
+          },
+          {
+            "name": "ls_gdng_bd",
+            "alias": "ls_gdng_bd",
+            "show": true
+          },
+          {
+            "name": "ls_gdng_cd",
+            "alias": "ls_gdng_cd",
+            "show": true
+          },
+          {
+            "name": "ls_gdng_b3",
+            "alias": "ls_gdng_b3",
+            "show": true
+          },
+          {
+            "name": "ls_gdng_en",
+            "alias": "ls_gdng_en",
+            "show": true
+          },
+          {
+            "name": "jml_bunker",
+            "alias": "jml_bunker",
+            "show": true
+          },
+          {
+            "name": "kap_bunker",
+            "alias": "kap_bunker",
+            "show": true
+          },
+          {
+            "name": "ls_kantor",
+            "alias": "ls_kantor",
+            "show": true
+          },
+          {
+            "name": "ls_dag",
+            "alias": "ls_dag",
+            "show": true
+          },
+          {
+            "name": "kap_park",
+            "alias": "kap_park",
+            "show": true
+          },
+          {
+            "name": "ls_park",
+            "alias": "ls_park",
+            "show": true
+          },
+          {
+            "name": "ls_drh_krj",
+            "alias": "ls_drh_krj",
+            "show": true
+          },
+          {
+            "name": "ls_bng",
+            "alias": "ls_bng",
+            "show": true
+          },
+          {
+            "name": "ls_drh_k_1",
+            "alias": "ls_drh_k_1",
+            "show": true
+          },
+          {
+            "name": "ls_drh_kep",
+            "alias": "ls_drh_kep",
+            "show": true
+          },
+          {
+            "name": "remark",
+            "alias": "remark",
+            "show": true
+          },
+          {
+            "name": "status",
+            "alias": "status",
+            "show": true
+          },
+          {
+            "name": "hirarki_p",
+            "alias": "hirarki_p",
+            "show": true
+          },
+          {
+            "name": "kode_hirar",
+            "alias": "kode_hirar",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Jalur Layar",
+      "id": "f558fffa5ba24de6bdf4af10ae4e26c4",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Persebaran_Pelabuhan_dan_Jalur_Pelayaran_Kapal_Indonesia_WFL1/FeatureServer/1",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true
+          },
+          {
+            "name": "objectid",
+            "alias": "objectid",
+            "show": true
+          },
+          {
+            "name": "idalur",
+            "alias": "idalur",
+            "show": true
+          },
+          {
+            "name": "kdalur",
+            "alias": "kdalur",
+            "show": true
+          },
+          {
+            "name": "nmalur",
+            "alias": "nmalur",
+            "show": true
+          },
+          {
+            "name": "km",
+            "alias": "km",
+            "show": true
+          },
+          {
+            "name": "dariidpl",
+            "alias": "dariidpl",
+            "show": true
+          },
+          {
+            "name": "keidpl",
+            "alias": "keidpl",
+            "show": true
+          },
+          {
+            "name": "keterangan",
+            "alias": "keterangan",
+            "show": true
+          },
+          {
+            "name": "sumberdata",
+            "alias": "sumberdata",
+            "show": true
+          },
+          {
+            "name": "insertby",
+            "alias": "insertby",
+            "show": true
+          },
+          {
+            "name": "insertdate",
+            "alias": "insertdate",
+            "show": true
+          },
+          {
+            "name": "updateby",
+            "alias": "updateby",
+            "show": true
+          },
+          {
+            "name": "updatedate",
+            "alias": "updatedate",
+            "show": true
+          },
+          {
+            "name": "statusdata",
+            "alias": "statusdata",
+            "show": true
+          },
+          {
+            "name": "ketdata",
+            "alias": "ketdata",
+            "show": true
+          },
+          {
+            "name": "peng_id",
+            "alias": "peng_id",
+            "show": true
+          },
+          {
+            "name": "lock_by",
+            "alias": "lock_by",
+            "show": true
+          },
+          {
+            "name": "lock_date",
+            "alias": "lock_date",
+            "show": true
+          },
+          {
+            "name": "valid_by",
+            "alias": "valid_by",
+            "show": true
+          },
+          {
+            "name": "valid_date",
+            "alias": "valid_date",
+            "show": true
+          },
+          {
+            "name": "st_length_",
+            "alias": "st_length(",
+            "show": true
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Batas Provinsi",
+      "id": "8c2eecc1d5c24f5eba5bae760ba2f576",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Persebaran_Pelabuhan_dan_Jalur_Pelayaran_Kapal_Indonesia_WFL1/FeatureServer/5",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true
+          },
+          {
+            "name": "LEFT_FID",
+            "alias": "LEFT_FID",
+            "show": true
+          },
+          {
+            "name": "RIGHT_FID",
+            "alias": "RIGHT_FID",
+            "show": true
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Provinsi Indonesia",
+      "id": "f31b4be914df489698ad456f70cce3b9",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Persebaran_Pelabuhan_dan_Jalur_Pelayaran_Kapal_Indonesia_WFL1/FeatureServer/6",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true
+          },
+          {
+            "name": "PROVINSI",
+            "alias": "PROVINSI",
+            "show": true
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    },
+    {
+      "name": "Label Provinsi Indonesia",
+      "id": "e9eb9f4e4abf44279256d961b12ec18e",
+      "layer": {
+        "url": "https://services3.arcgis.com/ph3kXj7c6Bqf3eeX/arcgis/rest/services/Persebaran_Pelabuhan_dan_Jalur_Pelayaran_Kapal_Indonesia_WFL1/FeatureServer/7",
+        "fields": [
+          {
+            "name": "FID",
+            "alias": "FID",
+            "show": true
+          },
+          {
+            "name": "OBJECTID",
+            "alias": "OBJECTID",
+            "show": true
+          },
+          {
+            "name": "PROVINSI",
+            "alias": "PROVINSI",
+            "show": true
+          },
+          {
+            "name": "Shape_Leng",
+            "alias": "Shape_Leng",
+            "show": true
+          },
+          {
+            "name": "Shape__Area",
+            "alias": "Shape__Area",
+            "show": true
+          },
+          {
+            "name": "Shape__Length",
+            "alias": "Shape__Length",
+            "show": true
+          }
+        ]
+      },
+      "show": false,
+      "showAttachments": false,
+      "sortField": "FID",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": false,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}
